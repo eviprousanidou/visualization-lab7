@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"> 
+        <title>Airport Connections ✈️</title>
+        <link rel="stylesheet" href="style.css">
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+        <script src="https://d3js.org/d3.v6.min.js"></script>
+
+        <script defer src="map.js"></script>
+        <script src="https://unpkg.com/topojson@3"></script>
+
+    </head>
+        <body>
+            <h2><strong>Airport Connections</strong></h2>
+        
+        <div class = container>
+            
+            <input style="margin: 6px;"  type="radio" id="force" name="display" value="force" checked>
+            <label for="force"> Force </label>
+            
+            <input style="margin: 6px; margin-left:25px;" type="radio" id="map" name="display" value="map">
+            <label for="map">Map</label>
+
+            <div class="tooltip">  </div>
+
+        </div>
+        
+        <div class="chart-area"></div>
+
+    </body>
+        
+    
+</html>
